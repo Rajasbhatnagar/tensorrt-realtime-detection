@@ -1,0 +1,16 @@
+# Model files (large, and TensorRT engines only work on the GPU they were built on)
+*.pt
+*.onnx
+*.engine
+*.cache
+models/
+
+# Ultralytics outputs and downloaded datasets
+runs/
+datasets/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

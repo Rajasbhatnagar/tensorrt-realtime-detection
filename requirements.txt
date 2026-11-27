@@ -1,0 +1,8 @@
+# Install PyTorch with CUDA FIRST (see README), then:  pip install -r requirements.txt
+ultralytics>=8.3.0
+tensorrt
+onnx
+onnxslim
+opencv-python
+pandas
+matplotlib
